@@ -12,38 +12,35 @@
         
       <div id="upper">
         <div class="out">
-        <i >color picker</i>
+        <i>color picker</i>
         <input class="leng" id="colo" type="color" >
         </div>
 
        <div class="out">
-        <i >background</i>
+        <i>background</i>
         <input class="leng" id="leng" type="color">
         </div>
 
        <div class="out">
-        <i >font size</i>
-        <select class="leng" type="select" name="" id="out0">
+        <i>font size</i>
+        <select class="leng" id="out0">
          <option value="5">5px</option>
-        <option value="10">10px</option>
-        <option value="20">20px</option>
-        <option value="30">30px</option>
-        <option value="40">40px</option>
+         <option value="10">10px</option>
+         <option value="20">20px</option>
+         <option value="30">30px</option>
+         <option value="40">40px</option>
         </select>
         </div>
      </div>
 
-      
      <div>
-        <canvas  height="450%" 
-        width="800%" id="canva"></canvas>
+        <!-- Canvas will have a dynamic width and height based on screen size -->
+        <canvas id="canva"></canvas>
      </div>
      
-
      <div id="down">
         <button class="outline sam2" id="clo">clear</button>
-        <button class="outline sam3" id="save"> save and download</button>
-        
+        <button class="outline sam3" id="save">save and download</button>
      </div>
    </div>
    <script src="index.js"></script>
