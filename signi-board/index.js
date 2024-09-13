@@ -52,7 +52,7 @@ canvas.addEventListener('mouseleave', stopDrawing);
 canvas.addEventListener('touchstart', (e) => {
     const touch = e.touches[0];
     const rect = canvas.getBoundingClientRect();
-    startDrawing(touch.clientX - rect.left, touch.clientY - rect.top);
+    startDrawing(touch.clientX, touch.clientY);
 });
 
 canvas.addEventListener('touchmove', (e) => {
